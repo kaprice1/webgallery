@@ -2,13 +2,13 @@
   box-sizing: border-box;
 }
 body {
-  color: #333333;   
+  color: #5f1e1e;  
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  background-color: #c4dce1;                      /*change your Bkg color*/
+  background-color: #bfbfbf;                      /*change your Bkg color*/
 }
 
 a, a:active, a:visited {
-  color: #0066CC;
+  color:fefdfd;
 }
 
 .content {
@@ -25,7 +25,7 @@ footer {
 }
 
 footer p {
-  font-size: 18px;                 /*font size in footer*/
+  font-size: 20px;                 /*font size in footer*/
   padding: 0;
   margin: 0;
 }
@@ -33,7 +33,7 @@ footer p {
 header {
   background: #C8C1B7;
   border-bottom: 1px solid #999999;
-  background-image: url("../img/gallerybanner.jpg"); /*change your banner image*/
+  background-image: url("../img/banner.jpg"); /*change your banner image*/
   height: 60px;
   position: relative;
   width: 100%;
@@ -47,7 +47,9 @@ header h1 {
 }
 
 header h1 a, header h1 a:visited, header h1 a:active {
-  color: #333333;
+  color: #fefdfd;
+
+
 }
 
 header nav ul {
@@ -67,7 +69,7 @@ header nav > ul li {
 }
 
 header nav > ul li:hover, header nav > ul li.active {
-  border-bottom-color: #0066CC;
+  border-bottom-color: #fefdfd;
 }
 
 header nav > ul li:hover a, header nav > ul li.active a {
@@ -78,7 +80,7 @@ header nav a, header nav a:visited {
   display: block;
   line-height: 60px;
   text-decoration: none;
-  color: #000000;                         /*changes banner text color*/
+  color: #fefdfd;                         /*changes banner text color*/
   transition: color 200ms ease-in-out;
 }
 
